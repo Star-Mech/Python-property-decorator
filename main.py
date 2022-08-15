@@ -42,3 +42,7 @@ print(point.y)
 # point.x = "one"
 
 # point.y = "1o"
+
+
+new_c = Circle.create_instance(23)
+print(new_c.__dict__)

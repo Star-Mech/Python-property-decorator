@@ -5,6 +5,10 @@ class Circle:
     def __init__(self, radius):
         self.radius = radius
 
+    @classmethod
+    def create_instance(cls, radius):
+        return cls(radius)
+
     @property
     def radius(self):
         return self._radius

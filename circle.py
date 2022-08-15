@@ -21,6 +21,9 @@ class Circle:
     def diameter(self):
         return self.radius * 2
 
+    def some_method(self):
+        print("Some method called on ",self)
+
     # @diameter.setter
     # def diameter(self, value):
     #     self.radius = value / 2
